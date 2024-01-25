@@ -1,0 +1,18 @@
+@media screen and (max-width: 495px) {
+    main{
+        width: 300px;
+        & img{
+            width: 290px;
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    main{
+        
+        width: 260px;
+        & img{
+            width: 257px;
+        }
+    }
+}
